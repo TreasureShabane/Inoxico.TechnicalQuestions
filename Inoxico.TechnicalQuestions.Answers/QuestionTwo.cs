@@ -35,7 +35,27 @@ namespace Inoxico.TechnicalQuestions.Answers
                         i++;
                     }
 
+                    j = j - 1;
+                    q = points[j];
+                    k = j + 1;
+
+                    while (points[k] > points[k - 1] && k < n)
+                    {
+                        k++;
+                    }
+
+                    if (k == j + 1)
+                    {
+                        i++;
+                    }
+
+                    k = k - 1;
+                    r = points[k];
+                    depth = Math.Max(depth, Math.Min(p - q, r - q));
+                    i++;
                 }
+
+                return depth;
 			}
 			catch (Exception)
 			{
