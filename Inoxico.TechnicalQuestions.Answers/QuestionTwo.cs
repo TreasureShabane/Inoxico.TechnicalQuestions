@@ -5,7 +5,14 @@ namespace Inoxico.TechnicalQuestions.Answers
     {
         public static int GetPitDepth(int[] points)
         {
-            throw new NotImplementedException();
+			try
+			{
+
+			}
+			catch (Exception)
+			{
+                throw new NotImplementedException();
+            }
         }
     }
 }
