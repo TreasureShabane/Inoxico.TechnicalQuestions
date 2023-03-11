@@ -7,7 +7,13 @@ namespace Inoxico.TechnicalQuestions.Answers
         {
 			try
 			{
+                var N = points.Length;
+                var depth = -1;
+                var i = 0;
 
+                if(N < 3) {
+                    return depth; 
+                }
 			}
 			catch (Exception)
 			{
