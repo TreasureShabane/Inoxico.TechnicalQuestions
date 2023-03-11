@@ -7,12 +7,20 @@ namespace Inoxico.TechnicalQuestions.Answers
         {
 			try
 			{
-                var N = points.Length;
+                var n = points.Length;
                 var depth = -1;
                 var i = 0;
+                var p = 0;
+                var q = 0;
+                var r = 0;
 
-                if(N < 3) {
+                if (n < 3) {
                     return depth; 
+                }
+
+                while (i < n - 2)
+                {
+
                 }
 			}
 			catch (Exception)
